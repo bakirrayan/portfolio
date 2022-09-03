@@ -2,6 +2,7 @@ import Devops from "../assets/Devops.jpg";
 import Discord from "../assets/discord_bot.jpg";
 import PFE from "../assets/PFE.png";
 import CarPlateReader from "../assets/carplatereader.png"
+import Portfolio from "../assets/portfolio.png"
 
 
 export const ProjectList = [
@@ -28,5 +29,11 @@ export const ProjectList = [
     image: CarPlateReader,
     skills: "Python,OpenCV",
     url: "https://github.com/bakirrayan/car_plate_reader"
+  },
+  {
+    name: "Portfolio",
+    image: Portfolio,
+    skills: "ReactJs,HTML,CSS",
+    url: "https://github.com/bakirrayan/portfolio"
   }
 ];

@@ -107,10 +107,10 @@ function Home() {
             <li>Playing video games</li>
             <li>Watching movies</li>
             <li>Creation of web applications</li>
-            <li>try new technologies</li>
+            <li>trying new technologies</li>
             <li>Coding games like <a href='https://exercism.org/profiles/Bakir-Rayan'>
               Exercism</a></li>
-            <li>CTF's like TreHackMe <Thm /></li>
+            <li>CTF's like TryHackMe ▼ <Thm /></li>
           </ol>
         </div>
       </div>
