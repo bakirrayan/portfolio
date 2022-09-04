@@ -1,7 +1,7 @@
 import React from "react";
 
 
-function ProjectItem({ image, name, url }) {
+function ProjectItem({ image, name, url, skills }) {
   return (
     <div
       className="projectItem"
@@ -10,6 +10,7 @@ function ProjectItem({ image, name, url }) {
     >
       <div style={{ backgroundImage: `url(${image})` }} className="bgImage" />
       <h1> {name} </h1>
+      <p> {skills} </p>
     </div>
   );
 }

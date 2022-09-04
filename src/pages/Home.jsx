@@ -25,7 +25,7 @@ function Home() {
   return (
     <div className='home'>
       <div className='about'>
-        <h1>Rayan Bakir</h1>
+        <h1 className='anim-typewriter'>Rayan Bakir</h1>
         <div className="prompt">
           <p>Hey there 👋 I am an automatics and systems engineer.</p>
         </div>
@@ -34,7 +34,11 @@ function Home() {
       <div className='container'>
         <div className='container-child'>
           <h2>Bio</h2>
-          <span>it's me</span>
+          <span>Being a self-taught and inquisitive person, I am always willing to experiment with new things and try new technologies that I have never seen before. 
+            This portfolio is part of the projects that made it possible for me to learn reactjs.<br/>
+            This portfolio is part of the projects that have taught me new things such as ReactJs. 
+            One of my favourite hobby is designing robots and their software. 
+            In another context, I am fascinated by artificial intelligence and how it allows us to change the way we live.</span>
         </div>
         <div className='container-child'>
           <h2>skills</h2>

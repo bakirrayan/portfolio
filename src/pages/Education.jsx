@@ -7,13 +7,13 @@ import "../styles/Education.css";
 function Education() {
   return (
     <div>
-      <VerticalTimeline>
+      <VerticalTimeline lineColor={ "black" }>
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
           contentStyle={{ background: '#00c696', color: 'black', }}
-          contentArrowStyle={{ borderRight: '7px solid  #00c696' }}
+          contentArrowStyle={{ borderRight: '7px solid  #000' }}
           date="2017 - 2020"
-          iconStyle={{ background: '#00c696', color: 'blue' }}
+          iconStyle={{ background: '#00c696', color: 'blue'}}
           icon={<SchoolIcon />}
         >
           <h3 className="vertical-timeline-element-title">Bachelor in automatique</h3>
@@ -26,7 +26,7 @@ function Education() {
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
           contentStyle={{ background: '#00c696', color: 'black' }}
-          contentArrowStyle={{ borderRight: '7px solid  #00c696' }}
+          contentArrowStyle={{ borderRight: '7px solid  #000' }}
           date="Jul 2020 - Dec 2020"
           iconStyle={{ background: '#00c696', color: 'blue' }}
           icon={<SchoolIcon />}
@@ -43,7 +43,7 @@ function Education() {
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
           contentStyle={{ background: '#00c696', color: 'black' }}
-          contentArrowStyle={{ borderRight: '7px solid  #00c696' }}
+          contentArrowStyle={{ borderRight: '7px solid  #000' }}
           date="Nov 2020 - Jan 2021"
           iconStyle={{ background: '#00c696', color: 'blue' }}
           icon={<SchoolIcon />}
@@ -60,7 +60,7 @@ function Education() {
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
           contentStyle={{ background: '#00c696', color: 'black' }}
-          contentArrowStyle={{ borderRight: '7px solid  #00c696' }}
+          contentArrowStyle={{ borderRight: '7px solid  #000' }}
           date="Aug 2021 - Dec. 2021"
           iconStyle={{ background: '#00c696', color: 'blue' }}
           icon={<SchoolIcon />}
@@ -75,7 +75,7 @@ function Education() {
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
           contentStyle={{ background: '#00c696', color: 'black' }}
-          contentArrowStyle={{ borderRight: '7px solid  #00c696' }}
+          contentArrowStyle={{ borderRight: '7px solid  #000' }}
           date="2020 - 2022"
           iconStyle={{ background: '#00c696', color: 'blue' }}
           icon={<SchoolIcon />}
