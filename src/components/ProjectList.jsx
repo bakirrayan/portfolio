@@ -17,7 +17,7 @@ export const ProjectList = [
     name: "Discord bot (soon to be publicly available)",
     image: Discord,
     skills: "Django,Python,discordpy,bash,Docker",
-    url: "https://github.com/bakirrayan/discord_bot"
+    url: "https://github.com/bakirrayan/discord_bot_public"
   },
   {
     name: "PFE (last year project)",
